@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.scss">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yannick Driessens development</title>
+</head>
+<body>
+
+    <!-- NAV STAYS SAME NO TRANSITION-->
+<nav>
+    <ul class="nav-list">
+        <li class="nav-links"><a href="index.html">Home</a></li>
+        <li class="nav-links"><a href="about.html">About</a></li>
+        <li class="nav-links"><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<main data-router-wrapper>
+<!-- HOME PAGE TRANSITIONS = YES-->
+    <section data-router-view ="home"class="home">
+        <div class="home-content">
+        <div class="home-presentation">
+                <h1>Seamless TRANSITION</h1>
+                <p> POG C H A M P</p>
+            </div>
+        <img src="img/home.svg" alt="home">
+        </div>
+    </section>
+</main>
+    <script src="./js/index.js"></script>
+</body>
+</html>
